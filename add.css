@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+*{
+    font-family: 'Geologica', sans-serif;
+}
+.head{
+    padding: 5px;
+    font-family: 'Geologica', sans-serif;
+    background-color: black;
+    color: white;
+}
+.head h1{
+    margin-left: 50px;
+} 
+.menu{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 20%;
+    background-color: #9376E0;
+}
+.menu a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+    background-color: #FFE7A0;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.menu a:hover{
+    transition: 0.5s;
+    background-color: #30A2FF;
+    margin-left: 60px;
+}
+
+form{
+    margin-top: -500px;
+    border-radius: 30px;
+    padding: 50px;
+    margin-left: 450px;
+    max-width: fit-content;
+    border: 2px solid black;
+}
+form table th,td{
+    text-align: left;
+}
+.del{
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 750px;
+}
+.edit{
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.submit{
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 820px;
+    padding: 10px;
+}
+.add input{
+    width: 200px;
+    padding: 7px;
+}
+.submit:hover{
+    background-color: green;
+}
+.del:hover{
+    background-color: red;
+}
+.edit:hover{
+    background-color: grey;
+}

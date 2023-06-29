@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+
+*{
+    font-family: 'Geologica', sans-serif;
+}
+
+
+.head{
+    display: flex;
+    background-color: #E4A5FF;
+    width: 100%;
+    padding: 10px;
+}
+.user-detail{
+    margin-left: 500px;
+}
+.user-detail input{
+    background-color: #FFBDF7;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;
+    border-style: none;
+}
+.user-detail td{
+    padding: 10px;
+    padding-left: 30px;
+}
+.product-detail
+{
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 20px;
+}
+.product-detail th,td{
+    text-align: left;
+    padding: 20px;
+}
+.product-detail th{
+    border-bottom: 2px dashed black;
+}
+.product-detail input{
+    padding: 10px;
+    width: 200px;
+}
+.total{
+    margin-left: 630px;
+    font-size: 20px;
+    /* border:2px solid black; */
+    padding: 10px;
+}
+.tot{
+    margin-left: 820px;
+    margin-top: -22px;
+    font-size: 20px;
+}
+/* .summa{
+    display:none;
+} */
+.buy{
+    margin-left: 700px;
+    font-size: 18px;
+    padding: 10px;
+    border-style: none;
+    border:2px solid black;
+}
+.buy:hover{
+    background-color: #46458C;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    background-color: #545B77;
+    padding: 50px;
+}
+.social{
+    margin-left: 450px;
+}
+.social i{
+    color: black;
+    margin-left: 60px;
+}
+.detail{
+    margin-left: 50px;
+    padding: 30px;
+}
+.map{
+    margin-top: -170px;
+    margin-left: 1000px;
+}

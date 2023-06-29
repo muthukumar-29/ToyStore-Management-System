@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+*{
+    font-family: 'Geologica', sans-serif;
+}
+.head{
+    padding: 20px;
+    display: flex;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.head h1{ 
+    font-family: 'Geologica', sans-serif;
+    margin-left: 50px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 1200px;
+}
+.mydrop{
+    display: absolute;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    display: none;
+    background-color: white;
+}
+.dropdown:hover .mydrop{
+    display: block;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 20%;
+    background-color: #9376E0;
+}
+.menu a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+    background-color: #FFE7A0;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.menu a:hover{
+    transition: 0.5s;
+    background-color: #30A2FF;
+    margin-left: 60px;
+}
+.dash{
+    margin-left: 400px;
+    margin-top: -500px;
+    display: flex;
+}
+.dash img{
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+}
+.dash p{
+    margin-left: 150px;
+}
+.dash span{
+    margin-left: 180px;
+}
