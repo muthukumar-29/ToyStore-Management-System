@@ -12,7 +12,7 @@
     <form method="post">
     <div class="head">
         <img src="uploads/ORVZE20.jpg" alt="logo">
-        <p><strong>TOY STORE</strong></p>
+        <p><strong>LITTLE MAGIC TOY STORE</strong></p>
         <a href="purchase.php" name="buy"><i class="fa-solid fa-cart-shopping"></i> Purchase</a>
     </div><br>
 </form>
